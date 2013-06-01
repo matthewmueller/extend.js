@@ -12,7 +12,7 @@
 
 ```js
 var global = {
-  name : 'matt',
+  name : "matt",
   age : 24
 };
 
@@ -24,10 +24,10 @@ var obj = extend(global, local, { age: 25 });
 ```
 results in:
 
-```json
+```js
 {
-  "name": "matt",
-  "age": "25"
+  name: "matt",
+  age: 25
 }
 ```
 
