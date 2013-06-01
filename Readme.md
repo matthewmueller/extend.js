@@ -26,8 +26,8 @@ results in:
 
 ```json
 {
-  name: 'matt',
-  age: 25
+  "name": "matt",
+  "age": "25"
 }
 ```
 
