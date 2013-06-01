@@ -1,9 +1,37 @@
 
 # extend.js
 
-  extend(obj, obj2, ...)
+  extend objects. `extend(obj, obj2, ...)`
 
-## License 
+## Installation
+
+    npm install extend.js
+    component install matthewmueller/extend
+
+## Example
+
+```js
+var global = {
+  name : 'matt',
+  age : 24
+};
+
+var local = {
+  age: 50
+};
+
+var obj = extend(global, local, { age: 25 });
+```
+results in:
+
+```json
+{
+  name: 'matt',
+  age: 25
+}
+```
+
+## License
 
 (The MIT License)
 
