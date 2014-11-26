@@ -1,6 +1,6 @@
 {
   "name": "extend",
-  "repo": "matthewmueller/extend",
+  "repo": "matthewmueller/extend.js",
   "description": "extend(obj, obj2, ...)",
   "version": "0.0.1",
   "keywords": [],
