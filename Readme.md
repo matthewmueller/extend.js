@@ -6,7 +6,7 @@
 ## Installation
 
     npm install extend.js
-    component install matthewmueller/extend
+    component install matthewmueller/extend.js
 
 ## Example
 
